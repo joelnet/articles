@@ -202,12 +202,12 @@ const getTokenIndex = tokenContract.getTokenIndex(account)
 const getTokenAtIndex = tokenContract.getTokenAtIndex(account)
 
 // Ramda's pipeP asynchronous function composer
-const getTokenByIndex = pipeP(
+const getToken = pipeP(
   getTokenIndex,
   getTokenAtIndex,
 )
 
-getTokenByIndex(123) //=> then "success"
+getToken(123) //=> then "success"
 ```
 
 ## Summary
