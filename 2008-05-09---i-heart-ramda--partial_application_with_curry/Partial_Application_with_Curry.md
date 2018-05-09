@@ -143,7 +143,7 @@ If you need help, post questions in the comments section, I'll do my best to ans
 
 Here's a simplified snippet from a project I am working on. First I'll stub out the `tokenContract` so **you can also run this example**.
 
-Again, don't read too much into this part of the code, it's just the setup. But notice to how the `curry` functions are used below.
+Again, don't read too much into this part of the code, it's just the setup. But notice to how the `curry` function is used below.
 
 ```javascript
 import curry from 'ramda/src/curry'
