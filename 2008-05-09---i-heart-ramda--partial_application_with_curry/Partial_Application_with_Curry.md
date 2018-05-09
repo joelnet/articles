@@ -3,8 +3,10 @@
 
 # Introduction to I ❤ Ramda
 
-This series will differ slightly from others you may have seen. Instead of using the typical `foo`, `bar`, `baz` examples,
+The I ❤ Ramda series will differ slightly from others you may have seen. Instead of using the typical `foo`, `bar`, `baz` examples,
 or articles demonstrating isolated functions, this series aims to showcase real world applications of Ramda.js.
+
+This is the first article and will focus *Partial Application with Curry*.
 
 # Video
 
