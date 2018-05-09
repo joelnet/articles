@@ -1,0 +1,32 @@
+{
+  "name": "articles",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joelnet/articles.git"
+  },
+  "author": "Joel Thoms",
+  "license": "CC-BY-4.0",
+  "bugs": {
+    "url": "https://github.com/joelnet/articles/issues"
+  },
+  "homepage": "https://github.com/joelnet/articles#readme",
+  "dependencies": {
+    "ramda": "^0.25.0"
+  },
+  "devDependencies": {
+    "babel-preset-env": "^1.6.1"
+  },
+  "babel": {
+    "presets": [
+      "env"
+    ],
+    "sourceMaps": true,
+    "retainLines": true
+  }
+}
