@@ -8,14 +8,6 @@ or articles demonstrating isolated functions, this series aims to showcase real 
 
 This is the first article and will focus *Partial Application with Curry*.
 
-# Video
-
-As an experiement, I have also created a companion video with this article.
-
-If this is something you would like to see more of please let me know!
-
-[![I ❤ Ramda - Partial Application with Curry Video](video-screenshot.png)](http://www.youtube.com/watch?v=QbWSoMov650)
-
 # Partial Application with Bind
 
 If you have used `bind`, you may already be familiar with the concept of Partial Application.
