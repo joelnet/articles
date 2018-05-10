@@ -23,8 +23,7 @@ double(3) //=> 6
 
 Using `bind` we were able to partially apply the value `2` to the argument `a` in the function `multiply` to  **create a completely new function** `double`.
 
-The above solution (with `bind`) works just fine, even if we do have to call `bind` and also pass in the context 
-(in this case it's `null`).
+The above solution (with `bind`) works just fine, even if we do have to call `bind` and also pass in the context (in this case it's `null`).
 
 # Partial Application with Curry
 The Ramda way of handling Partial Application would be to **Curry** the `multiply` function.
@@ -59,8 +58,7 @@ fs.readFile('README.md', 'utf8', output)
 fs.readFile('package.json', 'utf8', output)
 ```
 
-All calls to `readFile` are going to be `utf8` and now that I think about it, they are all going to use the same `output`
-function too.
+All calls to `readFile` are going to be `utf8` and now that I think about it, they are all going to use the same `output` function too.
 
 For this example **bind cannot be used** because `bind` will only apply arguments from left to right. A completely new function would have to be created.
 
@@ -170,9 +168,7 @@ tokenContract.getTokenIndex(account, 123) //=> then 1000
   .then(tokenContract.getTokenAtIndex(account)) //=> then "success"
 ```
 
-Partial Application allowed us to trim `i =>` and `, i` off the ends of our function inside `then`. This is a pattern you
-will see _often_. The single argument supplied from the `then` function (in this case it's `i`) will become the final
-argument of the function to be called in `tokenContract.getTokenAtIndex`.
+Partial Application allowed us to trim `i =>` and `, i` off the ends of our function inside `then`. This is a pattern you will see _often_. The single argument supplied from the `then` function (in this case it's `i`) will become the final argument of the function to be called in `tokenContract.getTokenAtIndex`.
 
 And since I know the work I am doing will always be for `account`, I could apply the `account` value to both functions.
 
@@ -186,8 +182,7 @@ getToken(123) //=> then 1000
 
 # Extra credit
 
-**Function composition will be covered in future articles**, but right now I'd like leave this as extra credit for you
-to research and tinker with:
+**Function composition will be covered in future articles**, but right now I'd like leave this as extra credit for you to research and tinker with:
 
 ```javascript
 const account = 1
