@@ -43,7 +43,7 @@ Okay, so now the code is... _different_, but you're not excited, and I get that.
 
 ## Where bind falls short
 
-Let's consider this example...
+Let's consider this example. Take a look at the last 2 lines...
 
 ```javascript
 import fs from 'fs'
