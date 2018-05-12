@@ -170,6 +170,8 @@ tokenContract.getTokenIndex(account, 123) //=> then 1000
 
 Curry an Partial Application allowed us to trim `i =>` and `, i` off the ends of our function inside `then`. This is a pattern you will see _often_. The single argument supplied from the `then` function (in this case it's `i`) will become the final argument of the function to be called in `tokenContract.getTokenAtIndex`.
 
+Futher research: The process of omitting the `i` at the end is called point-free or tacit programming. The argument `i` being the "point".
+
 And since I know the work I am doing will always be for `account`, I could apply the `account` value to both functions.
 
 ```javascript
