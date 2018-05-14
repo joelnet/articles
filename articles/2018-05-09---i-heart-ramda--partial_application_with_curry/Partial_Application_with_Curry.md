@@ -209,6 +209,6 @@ If you found this interesting, I have more articles on [Medium](https://medium.c
 
 Subscribe on [Twitter](https://twitter.com/joelnet), [Medium](https://medium.com/@joelthoms/latest), [dev.to](https://dev.to/joelnet) and [steemit](https://steemit.com/@joelnet) or [joel.net](http://joel.net) to be notified of future articles.
 
-[![subscribe to @joelnet](../assets/google-form-get-articles.png "subscribe to @joelnet")](https://goo.gl/forms/tUTnRHsrSmgpf8XK2)
+[![subscribe to @joelnet](../../assets/google-form-get-articles.png "subscribe to @joelnet")](https://goo.gl/forms/tUTnRHsrSmgpf8XK2)
 
 Cheers!
