@@ -6,7 +6,7 @@
 The I ❤ Ramda series will differ slightly from others you may have seen. Instead of using the typical `foo`, `bar`, `baz` examples,
 or articles demonstrating isolated functions, this series aims to showcase real world applications of Ramda.js.
 
-This is the first article and will focus *Partial Application with a Special Placeholder*.
+This is the first article and will focus on *Partial Application with a Special Placeholder*.
 
 # Partial Application with Bind
 
