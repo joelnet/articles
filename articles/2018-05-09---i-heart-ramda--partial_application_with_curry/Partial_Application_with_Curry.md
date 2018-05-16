@@ -1,4 +1,4 @@
-# I ❤ Ramda - Partial Application with Curry
+# I ❤ Ramda - Partial Application with a Special Placeholder
 [![license CC BY 4.0](https://img.shields.io/badge/license-CC%20BY%204.0-blue.svg)](https://creativecommons.org/licenses/by/4.0/)
 
 # Introduction to I ❤ Ramda
@@ -6,7 +6,7 @@
 The I ❤ Ramda series will differ slightly from others you may have seen. Instead of using the typical `foo`, `bar`, `baz` examples,
 or articles demonstrating isolated functions, this series aims to showcase real world applications of Ramda.js.
 
-This is the first article and will focus *Partial Application with Curry*.
+This is the first article and will focus *Partial Application with a Special Placeholder*.
 
 # Partial Application with Bind
 
