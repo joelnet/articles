@@ -311,9 +311,9 @@ Just a note: The reducer could also be written like the code below, but I would 
 
 # Tap
 
-`tap` is one of my favorite functions. I tend to use it when I need to debug, mutate, or execute side-effects.
+`tap` is one of my favorite functions. Is it weird to have favorite functions? Anyway, I use `tap` when I need to debug, mutate, or execute side-effects.
 
-`tap` is a simple function, it executes a function and then returns the original argument.
+`tap` is a simple function decorator ([More on function decorators](https://dev.to/joelnet/function-decorators-part-2-javascript-4km9)). It modifiest a function so that it discards the return value and instead returns the argument.
 
 It's probably easier to understand if I show you with code.
 
