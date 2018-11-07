@@ -22,7 +22,7 @@ So let's backup a few steps and learn the vocabulary required to understand what
 
 # Are we ready to understand a Functor?
 
-Definition: A `Functor` is something that is `Mappable` or something that can be mapped between Categories.
+Definition: A `Functor` is something that is `Mappable` or something that can be mapped between objects in a Category.
 
 Okay... Not yet. But do not be afraid, you are already familiar with `Functors` if you have used `Array`'s `map` function.
 
@@ -32,22 +32,22 @@ Okay... Not yet. But do not be afraid, you are already familiar with `Functors` 
 
 Before we can fully understand a `Functor`, we also have to understand what it means to be `Mappable` and to understand that we also have to understand what a `Category` is. So let's begin there.
 
-# Categories and Maps
+# Categories, Object and Maps (Morphisms)
 
 ![Category theory triangle](https://thepracticaldev.s3.amazonaws.com/i/odihwyfbo86x93917533.png)
 
-A `category` consists of a collection of things. This could be numbers, strings, urls, customers, or any other way you wish to organize like-things. (X, Y, and Z in the graphic are the Categories.)
+A `category` consists of a collection of nodes (objects) and morphisms (functions). An object could be numbers, strings, urls, customers, or any other way you wish to organize like-things. (X, Y, and Z in the graphic are the objects.)
 
-A `map` is a function to convert something from one category to another (also itself). (f, g, and fog are the maps). 🔍 Google tip: A `map` between Categories is called a `Morphism`.
+A `map` is a function to convert something from one object to another. (f, g, and fog are the maps). 🔍 Google tip: A `map` between objects is called a `Morphism`.
 
-Example: An object in the category `Number` can be converted into the category `String` using the `toString()` method.
+Example: An object in the object `Number Type` can be converted into the object `String Type` using the `toString()` method.
 
 ```javascript
 // A map of Number -> String
 const numberToString = num => num.toString()
 ```
 
-You can also create `maps` back into their own category or more complex categories.
+You can also create `maps` back into their own objects or more complex object types.
 
 ```javascript
 // A map of Number -> Number
@@ -62,7 +62,7 @@ const urlToJson = url =>
     .then(response => response.json())
 ```
 
-So a category could be simple like a Number or a String. A category could also be more abstract like a Username, A User API URL, User API HTTP Request, User API Response, User API Response JSON. Then we can create maps or morphisms between each category to get the data we want.
+So an object could be simple like a Number or a String. An object could also be more abstract like a Username, A User API URL, User API HTTP Request, User API Response, User API Response JSON. Then we can create maps or morphisms between each object to get the data we want.
 
 Examples of morphisms:
 - Username -> User API Url
@@ -76,7 +76,7 @@ Examples of morphisms:
 
 Now that we understand what it means to be `Mappable`, we can finally understand what a `Functor` is.
 
-A `Functor` is something that is `Mappable` or something that can be mapped between Categories.
+A `Functor` is something that is `Mappable` or something that can be mapped between objects in a Category.
 
 An `Array` is `Mappable`, so it is a `Functor`. In this example I am taking an `Array of Numbers` and morphing it into an `Array of Strings`.
 
@@ -223,7 +223,7 @@ If I wanted to wrap a value twice (think nested `Arrays`) or control the return 
 
 # Summary
 
-- A `Functor` is something that is `Mappable` or something that can be mapped between Categories.
+- A `Functor` is something that is `Mappable` or something that can be mapped between objects in a Category.
 - A `Monad` is similar to a `Functor`, but is `Flat Mappable` between Categories.
 - `flatMap` is similar to `map`, but yields control of the wrapping of the return type to the mapping function.
 - A Promise breaks the `Functor` and `Monad` laws, but still has a lot of similarities. Same same but different.
