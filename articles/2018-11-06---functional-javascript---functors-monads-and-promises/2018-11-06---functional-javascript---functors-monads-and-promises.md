@@ -1,3 +1,5 @@
+# Functional JavaScript - Functors, Monads, and Promises
+
 [![Person holding a box wrapped in ribbon](https://thepracticaldev.s3.amazonaws.com/i/l3jaky9jm4lvifezynjt.jpg)](https://www.pexels.com/photo/person-s-holds-brown-gift-box-842876)
 
 Some people have said a `Promise` is a `Monad`. Others have said a `Promise` is not a `Monad`. They are both wrong... and they are both right.
